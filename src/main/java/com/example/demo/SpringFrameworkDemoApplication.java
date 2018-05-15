@@ -19,12 +19,12 @@ public class SpringFrameworkDemoApplication {
 		SearchNumberServiceImpl serviceImpl = 
 				applicationContext.getBean(SearchNumberServiceImpl.class);
 		
-		SearchNumberServiceImpl serviceImpl1 = 
-				applicationContext.getBean(SearchNumberServiceImpl.class);
+		/*SearchNumberServiceImpl serviceImpl1 = 
+				applicationContext.getBean(SearchNumberServiceImpl.class);*/
 		
 		DummyComponent component = applicationContext.getBean(DummyComponent.class);
 		
-		//System.out.println(serviceImpl.searchNumber());
+		System.out.println(serviceImpl.searchNumber());
 		//System.out.println(serviceImpl);
 		//System.out.println(serviceImpl.searchNumber());
 		//System.out.println(serviceImpl1);
